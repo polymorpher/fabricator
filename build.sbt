@@ -8,7 +8,7 @@ scalacOptions += "-target:jvm-1.7"
 
 name := "fabricator"
 
-version := "2.1.5"
+version := "2.1.5.3-SNAPSHOT"
 
 organization := "com.github.azakordonets"
 
@@ -83,7 +83,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.0-SNAP5" % "test",
   "com.github.nscala-time" %% "nscala-time" % "2.16.0",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.7.1",
-  "org.reflections" % "reflections" % "0.9.10",
   "ch.qos.logback" % "logback-classic" % "1.1.7",
   "org.assertj" % "assertj-core" % "3.1.0",
   "com.spatial4j" % "spatial4j" % "0.4.1",
